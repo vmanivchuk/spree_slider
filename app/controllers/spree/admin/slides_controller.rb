@@ -5,6 +5,7 @@ class Spree::Admin::SlidesController < Spree::Admin::ResourceController
     @slides = Spree::Slide.order(:position)
   end
 
+
   private
 
   def slide_params
